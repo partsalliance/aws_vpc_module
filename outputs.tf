@@ -1,5 +1,5 @@
 output "vpc_id" {
-	value = "${aws_vpc.vpc_id}"
+	value = "${aws_vpc.vpc_id.id}"
 }
 
 output "public_subnet_cidr" {
